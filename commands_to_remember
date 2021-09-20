@@ -1,0 +1,10 @@
+setxkbmap -layout us -variant intl "change keyboard keymap
+
+xrdb -merge ~/.Xresources "update xterm config
+
+pavucontrol "audio mixer
+
+lsblk "list block devices
+
+ddrescue --force -D path/to/iso /dev/sdx "make usb bootable
+
